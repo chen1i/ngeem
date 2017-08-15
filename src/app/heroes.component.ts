@@ -25,7 +25,7 @@ export class HeroesComponent implements OnInit{
   }
 
   getHeroes(): void {
-    this.heroService.getHeroesSlowly().then(hh => this.heroes = hh);
+    this.heroService.getHeroes().then(hh => this.heroes = hh);
   }
 }
 
