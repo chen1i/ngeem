@@ -5,7 +5,7 @@ import { HeroService } from './hero.service';
 @Component({
   selector: 'my-heroes',
   templateUrl: './heroes.component.html',
-  styleUrls: ['./app.component.css'],
+  styleUrls: ['./heroes.component.css'],
 })
 
 
